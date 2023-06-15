@@ -1,0 +1,22 @@
+.d-page .d-header-page {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 12px;
+    flex-wrap: wrap;  
+}
+
+.d-header-page .d-title {
+    padding-left: 16px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.d-header-page .d-button {
+    margin-right: 30px;
+    padding-left: 20px;
+    background-color: #01b047;
+    font-weight:bold;
+}

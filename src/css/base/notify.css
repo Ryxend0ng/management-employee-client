@@ -1,0 +1,102 @@
+.d-notify{
+    /* display: none; */
+    width:450px;
+    height: auto;
+    padding:20px;
+    font-size:15px;
+    border: 1px solid #bbbbbb;
+    position: absolute;  
+    top: calc(80%/2);
+    left: calc(70%/2);
+    background-color:#f4f4f4;
+    z-index: 1002;
+    transition:  0.25s linear;
+    -webkit-transition:  0.25s linear;
+    border-radius: 2px;
+}
+.d-btn-group{
+    display: flex;
+    justify-content:space-between;
+}
+.d-notify-title{
+    display:flex;
+    align-items: center;
+    border-bottom: 1px solid #bbbbbb;
+    
+    flex-direction: row;
+    padding-bottom: 35px;
+}
+.d-notify-title p{
+    padding-left: 30px;
+}
+.d-notify-title div{
+    padding-right: 16px;
+}
+.d-notify .d-button{
+    margin-top: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width:50px;
+    text-align: center !important;
+}
+
+.d-notify div:nth-child(2) .d-cancel{
+    text-align: center;
+    background-color:#f4f4f4 !important;
+    color: #000000;
+    border: 1px solid #bbbbbb !important;
+    width:60px;
+    padding-left: 20px;
+}
+.d-notify div:nth-child(2) .d-accept{
+    padding-left:30px;
+}
+@keyframes sucess {
+    from {top: calc(50%/2);
+    width:300px;
+  }
+    to {top: calc(190%/2);
+    width:300px;
+   }
+  }
+  
+  /* The element to apply the animation to */
+
+.d-notify-sucess{
+  
+    animation-name: sucess;
+    animation-duration: 4s;
+    width:300px;
+    padding:20px;
+    font-size:13px;
+    border: 1px solid #01B075;
+    position: absolute;
+    color:#f4f4f4;
+    box-sizing: border-box;
+    top: calc(50%/2);
+    left: calc(150%/2);
+    background-color:#01B075;
+    z-index: 1002;
+    
+}
+.d-notify-title-sucess{
+    display:flex;
+    justify-content:space-between;
+}
+#d-notify-validate div .d-cancel{
+    border: none !important;
+    
+}
+#d-notify-match-emp div .d-cancel{
+    border: none !important;
+    background-color: #f4f4f4;
+}
+#d-notify-validate #d-notify-validate-msg{
+    display: flex;
+    flex-direction: column;
+}
+#d-notify-match-emp .d-accept{
+    text-align: center;
+    padding-left:30px;
+}
+

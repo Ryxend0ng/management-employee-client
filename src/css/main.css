@@ -1,0 +1,43 @@
+@import url(./base/icon.css);
+@import url(./base/input.css);
+@import url(./base/button.css);
+@import url(./base/border.css);
+@import url(./base/notify.css);
+@import url(./base/color.css);
+@import url(./base/popup.css);
+@import url(./base/table.css);
+@import url(./base/flex.css);
+@import url(./layout/Container.css);
+@import url(./layout/TheHeader.css);
+@import url(./layout/TheNavbar.css);
+@import url(./layout/Page.css);
+@import url(./layout/HeaderPage.css);
+@import url(./layout/PageNavigation.css);
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Misa Font Regular !important;
+    font-size: 13px;
+    
+}
+@font-face {
+    font-family: Misa Font Regular;
+    src: url("../assets/font/notosans-regular.2cb88a13.woff2");
+}
+
+@font-face {
+    font-family: Misa Font Medium;
+    src: url("../assets/font/GoogleSans-Medium.otf");
+}
+
+@font-face {
+    font-family: Misa Font Bold;
+    src: url("../assets/font/GoogleSans-Bold.otf");
+}
+
+@font-face {
+    font-family: Misa Font Italic;
+    src: url("../assets/font/GoogleSans-Italic.otf");
+}

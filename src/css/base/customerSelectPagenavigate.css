@@ -1,0 +1,26 @@
+.el-select {
+    border-color: #000000 !important;
+    border-radius:5px !important;
+    --el-select-input-focus-border-color:#2FBE8E;
+} 
+.el-select-dropdown__item.selected {
+    color: white;
+    font-weight:0 !important;
+    background-color:#2FBE8E;
+    font-family: Misa Font Medium !important;
+}
+.el-input__wrapper {
+    display: inline-flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 1px 11px;
+    background-color: var(--el-input-bg-color,var(--el-fill-color-blank));
+    background-image: none;
+    border-radius:3px;
+    transition: var(--el-transition-box-shadow);  
+    box-shadow: 0 0 0 0.5px #BBBBBB inset !important;
+}
+.el-input__inner {
+    color: #000000;
+}

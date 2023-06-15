@@ -1,0 +1,49 @@
+.d-navbar {
+    flex-basis: 180px;
+    color: #f4f4f4;
+    font-size: 14px;
+    display: flex;
+    border-right: 1px solid #bbbbbb;
+    background-color: #454545;
+    max-height: 560px;
+   
+}
+.d-navbar ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.d-navbar ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;   
+    padding:8px 0px 10px 15px;
+    
+}
+
+.d-navbar ul li a {
+    width: 100%;
+}
+
+.d-navbar ul li .d-icon-menu {
+    padding-right: 16px;
+}
+
+.active {
+    background-color: #019160;
+    color: #ffffff;
+    font-family: Misa Font Medium;
+}
+
+.d-navbar ul li:hover {
+    background-color: #BBBBBB;
+    color: #ffffff;
+    font-style: Misa Font Regular;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.d-navbar ul li:hover div {
+    filter: brightness(0) invert(1);
+}

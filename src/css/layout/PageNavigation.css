@@ -1,0 +1,74 @@
+.d-page-navigation {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 56px;
+    align-items: center;
+    box-sizing: border-box;
+    
+}
+#total-record{
+    font-weight: bold;
+    color: #111;
+}
+.d-number-page {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-shrink: 2;
+    color:#656161;
+}
+
+.d-number-page .d-number {
+    padding: 1px .5rem;
+    margin: 5px;
+    border: 1px solid #f4f4f4;
+}
+
+.active {
+    background-color: #019160;
+    color: #ffffff;
+    font-family: Misa Font Medium;
+}
+
+.d-number-page .d-number:hover {
+    background-color: white;
+    color: #000000;
+    cursor: pointer;  
+    border: 1px solid #000000;
+}
+
+.d-control-right-filter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 40px;
+    cursor: pointer;
+}
+.d-control-right-filter{
+    cursor: pointer;
+}
+.d-combox-filter {
+    margin-right: 10px;
+}
+
+.d-icon-control-page {
+    padding: 3px;
+}
+
+.d-icon-control-page:hover {
+    border-radius: 4px;
+    background-color: white;
+}
+
+.d-page-navigation .d-btn-first-page, .d-btn-next-page {
+    margin-right: 24px;
+    cursor: pointer;
+}
+.d-border-page{
+    border: 1px solid #000000;
+}
+.disabledNextprev{
+    color:#aaa8a8;
+}

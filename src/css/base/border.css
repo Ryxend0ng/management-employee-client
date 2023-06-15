@@ -1,0 +1,15 @@
+.d-border-black {
+    border: 1px solid #D2D2D2;
+}
+.border_red {
+    border: 1px solid red !important;
+    outline:none;
+    border-color: none !important;
+    
+}
+
+.borderBlack{
+    border: 1px solid #e0e0e0 !important;
+    font-weight: bold;
+    color: #111;
+}

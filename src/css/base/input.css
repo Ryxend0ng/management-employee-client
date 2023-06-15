@@ -1,0 +1,40 @@
+.d-input-search {
+    margin-left: 16px;
+    border: 1px solid #bbbbbb;
+    outline: none;
+    height: 36px !important;
+    font-size: 12px;
+    color: #bbbbbb;
+    padding-right: 20px;
+    padding-left: 10px;
+    resize: horizontal;
+    width:200px;
+}
+.d-search-filter{
+    position: relative;
+    margin-right: 20px;
+}
+.d-search-filter input{
+    font-size:16px;
+    font-style: italic;
+}
+.d-input-icon-search {
+    background-position: 30px center;
+}
+
+.d-input-search:focus {
+    border: 1px solid #019160;
+}
+
+.d-input {
+    resize: horizontal;
+    height: 40px;
+}
+::placeholder {
+    color: #bbbbbb;
+    font-size: 14px;
+    font-style: italic;
+}
+::webkit-calendar-picker-indicator{
+    background-color: #f4f4f4;
+}

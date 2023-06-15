@@ -1,0 +1,36 @@
+.d-button {
+    border-radius: 4px;
+    background-color: #01b047;
+    height: 40px;
+    font-size: 13px;
+    color: #ffffff;
+    padding-left: 40px;
+    padding-right: 16px;
+    text-align: left;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+.d-button:hover {
+    background-color: #2FBE8E;
+    cursor: pointer;
+}
+
+.d-button:active {
+    background-color: #01B075;
+}
+
+.d-button-no-icon {
+    border-radius: 4px;
+    background-color: #01b047;
+    height: 40px;
+    font-size: 13px;
+    color: #ffffff;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: center;
+    border: none;
+    display: flex;
+    align-items: center;
+}

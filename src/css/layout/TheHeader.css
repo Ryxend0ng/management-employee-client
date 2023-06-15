@@ -1,0 +1,89 @@
+.d-content {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 100%;
+    background-color: #E9EBEE;
+    box-sizing: border-box;
+}
+.d-header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.d-header-category-employee {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: -moz-calc(100% - 180px);
+    width: -webkit-calc(100% - 180px);
+    width: calc(100% - 180px);
+    padding:5px 0px 5px 0px;
+}
+
+.d-logo {
+   
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #bbbbbb;
+    flex-wrap: nowrap;
+    flex-shrink: 2;
+    flex-basis: 180px;
+    justify-content: center;
+    background-color: #454545;
+    color: #ffffff;
+    padding:5px 0px 5px 0px;
+}
+
+.d-logo span {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.d-logo .d-toggle {
+    width: 28px;
+    height: 28px;
+    padding-left: 16px;
+    padding-right: 10px;
+    filter: brightness(0) invert(1);
+}
+
+.d-header-content .d-name {
+    padding-left: 16px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.d-header-content .d-name .d-name-details {
+    padding: 8px;
+}
+
+.d-header-content .d-icon-name {
+    padding-left: 10px;
+    width: 15px;
+    padding-right: 10px;
+}
+
+.d-header-content .d-account-avatar {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-right: 32px;
+}
+
+.d-account-avatar img {
+    width: 20px;
+    padding-right: 5px;
+    margin-left: 16px;
+}
+
+.d-account-avatar .d-username {
+    background-position: 120px center;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    padding: 0px 16px 0px 8px;
+}

@@ -1,0 +1,38 @@
+.d-control-function-table {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.d-table-page {
+    margin: 5px 0px 0px 20px;
+    background-color: white;
+    padding: 10px 10px 0px 20px ;
+    z-index: 1;
+    width: calc(100% - 80px);
+}
+.d-record-table{
+    box-sizing: border-box;
+    min-height: 376px;
+    max-height: 376px;
+    margin-top: 16px;
+    
+}
+.d-restart {
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 3px;
+    margin-right: 55px;
+    margin-top: 10px;
+}
+
+.d-record-table table {
+    border-collapse: collapse;
+    font-size: 14px !important;
+}
+
+.d-record-table tr~td {
+    text-align: center;
+}
